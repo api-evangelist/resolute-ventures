@@ -1,8 +1,24 @@
 aid: resolute-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resolute-ventures.png
 name: Resolute Ventures
-description: 'Resolute Ventures is a company surfaced as a portfolio company of foundry-group and added
-  to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Resolute Ventures is an early-stage venture capital firm that typically
+  writes a founder''s first VC check, backing pre-seed and seed-stage companies. Co-founded
+  by Mike Hirshland and Raanan Bar-Cohen, the firm invests in people rather than ideas,
+  backing mission-driven founders with the grit, energy and conviction to bring their
+  ideas to life and offering community, mentorship, health & wellness, and team-building
+  support. Portfolio companies include Vercel, Opendoor, Greenhouse, Hello Heart and
+  Signifyd. Added to the API Evangelist network as a portfolio company of Foundry Group.'
 url: https://raw.githubusercontent.com/api-evangelist/resolute-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Venture Capital
+- Early Stage
+- Seed
+- Pre-Seed
+- Startups
+- Investor
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,24 @@ maintainers:
 common:
 - type: Website
   url: https://resolute.vc
+- type: About
+  url: https://resolute.vc/about
+- type: Portfolio
+  url: https://resolute.vc/companies
+- type: Community
+  url: https://resolute.vc/community
+- type: PrivacyPolicy
+  url: https://resolute.vc/privacy-cookies
+- type: Twitter
+  url: https://x.com/resolutevc
+- type: LinkedIn
+  url: https://www.linkedin.com/company/resolute-ventures/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCQPPnqmGxFa8i6Rh8BvY-wA
+- type: DomainSecurity
+  url: security/resolute-ventures-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
